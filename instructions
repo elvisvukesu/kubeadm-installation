@@ -38,6 +38,11 @@ sudo hostnamectl set-hostname worker1
 On worker node2
 sudo hostnamectl set-hostname worker2
 
+On each instance, add the private IP's of all the instances in the cluster in the /etc/hosts file as follows:
+45.14.48.178 master
+45.14.48.179 worker1
+45.14.48.180 worker2
+
 Step 3.
 Install container runtime on all nodes
 Use the containerd-install.sh file to run the installation
