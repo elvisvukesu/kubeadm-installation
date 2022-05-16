@@ -56,7 +56,7 @@ Initialize kubeadm cluster
 On the master node:
 sudo kubeadm init
 
-Check kubelet that the kubelet process is running on the master node
+Check that the kubelet process is running on the master node
 service kubelet status
 systemctl status kubelet
 
