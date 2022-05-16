@@ -21,7 +21,7 @@ EOF
 sudo sysctl --system
 
 # Install containerd
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get -y install containerd
 
 # Configure containerd with defaults and restart with this config
