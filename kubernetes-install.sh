@@ -1,5 +1,5 @@
 # Install packages needed to use the Kubernetes apt repository
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get install -y apt-transport-https ca-certificates curl
 
 # Download the Google Cloud public signing key
